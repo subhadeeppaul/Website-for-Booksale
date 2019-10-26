@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="css/jquery.modal.css">
+    <link href="https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/icon.css">
+    <link rel="stylesheet" href="css/main.css">
+
+
+    <title>Pustak Jugaad</title>
+
+
+
+<body>
+
+    <div class="overlay">
+    </div>
+    <div class="main-popup">
+        <div class="popup-header">
+            <div id="popup-close-button"><a href="#"></a></div>
+            <ul>
+                <li><a href="#" id="sign-in">Sign In</a></li>
+                <li><a href="#" id="register">Register</a></li>
+            </ul>
+        </div>
+        <!--.popup-header-->
+        <div class="popup-content">
+            <form action="#" class="sign-in">
+                <label for="email">Email:</label>
+                <input type="text" id="email">
+                <label for="password">Password:</label>
+                <input type="password" id="password">
+                <p class="check-mark">
+                    <input type="checkbox" id="remember-me">
+                    <label for="remember-me">Remember me</label>
+                </p>
+                <input type="submit" id="submit" value="Submit">
+            </form>
+
+            <form action="#" class="register">
+                <label for="email-register">Email:</label>
+                <input type="text" id="email-register">
+                <label for="password-register">Password:</label>
+                <input type="password" id="password-register">
+                <label for="password-confirmation">Confirm Password:</label>
+                <input type="password-confirmation" id="password-confirmation">
+                <p class="check-mark">
+                    <input type="checkbox" id="accept-terms">
+                    <label for="accept-terms">I agree to the <a href="#">Terms</a></label>
+                </p>
+                <input type="submit" id="submit" value="Create Account">
+            </form>
+        </div>
+        <!--.popup-content-->
+    </div>
+    <!--.main-popup-->
+    <a href="javascript:" id="return-to-top"><i class="fa fa-chevron-up"></i></a>
+    <nav class="top" id="top">
+        <ul class="left">
+            <li><a href="">Pustak Jugaad</a></li>
+            <li> <a href="">Contact Us</a></li>
+            <li><a href="">Creative Writer</a></li>
+            <li><a href="">Wholesale</a></li>
+        </ul>
+        <ul class="center">
+            <li>
+                <form action="">
+
+                    <input type="text" name="" id="" placeholder="ISBN / Author / Book class">
+                    <button><i class="material-icons">search</i></button>
+                    <!-- <div class="search">
+                            <input type="search" class="search-box" />
+                            <span class="search-button">
+                              <span class="search-icon"></span>
+                            </span>
+                          </div> -->
+                </form>
+            </li>
+        </ul>
+        <ul class="right">
+            <li><a href="">
+                    <i class="material-icons">shopping_cart</i>
+                </a></li>
+            <li><button href="" class="button"><i class="material-icons">account_circle</i></button></li>
+
+
+
+        </ul>
+    </nav>
+    <header class="header">
+        <nav class="down">
+            <ul class="left">
+                <li class="cat"><a href="" >Categories</a>
+                    <ul class="item">
+                        <li>
+                            <a href="">Literature</a>
+                        </li>
+                        <li>
+                            <a href="">Science Fiction</a>
+                        </li>
+                        <li>
+                            <a href="">Romance</a>
+                        </li>
+                        <li>
+                            <a href="">Crime and Thriller</a>
+                        </li>
+                        <li>
+                            <a href="">Fantasy</a>
+                        </li>
+                        <li>
+                            <a href="">Classic</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="">Featured Books</a></li>
+                <li><a href="">Recently Added Books</a></li>
+                <li><a href="">Sell</a></li>
+                <li><a href="">Creative Member</a></li>
+                <li><a href="">Exchange Novel</a></li>
+                <li><a href="">Donate</a></li>
+                <li><a href="">Social Corner</a></li>
+                <li><a href="">Discuss</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+
+    <section class="carousel" style="height:400px;">
+        <iframe src="./index-iframe.html" style="width:100%;height:360px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;"
+            marginheight="0" marginwidth="0"></iframe>
+    </section>
+    <section class="books_rated" style="height:400px; margin-top:340px;">
+        <h3>Top Rated Books</h3> <a href="" class="right">See All</a>
+        <div class="books">
+            <div class="img_book">
+                <div class="book">
+                    <img src="img/murder-horror-thriller-woods-e-book-cover-for-kindle-self-publishing.jpg" alt=""
+                        class="">
+                    <h1 class="title">Horror</h1>
+                </div>
+            </div>
+            <div class="img_book">
+                <div class="book">
+                    <img src="img/premade-butterfly-contemporary-romance-ebook-cover-design.jpg" alt="" class="">
+                    <h1 class="title">Romance</h1>
+                </div>
+            </div>
+            <div class="img_book">
+                <div class="book">
+                    <img src="img/premade-crime-police-thriller-ebook-cover-design.jpg" alt="" class="">
+                    <h1 class="title">Crime and Thriller</h1>
+                </div>
+            </div>
+            <div class="img_book">
+                <div class="book">
+                    <img src="img/premade-indie-scifi-e-book-cover-for-self-published-authors.jpg" alt="" class="">
+                    <h1 class="title">Scifi</h1>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="books_recent" style="height:400px; margin-top:150px;">
+        <h3>Top Recent Books</h3> <a href="" class="right">See All</a>
+        <div class="books">
+            <div class="img_book">
+                <div class="book">
+                    <img src="img/premade-psychological-thriller-indie-e-book-cover-design-for-sale.jpg" alt="" class="">
+                    <h1 class="title">Thriller</h1>
+                </div>
+            </div>
+            <div class="img_book">
+                <div class="book">
+                    <img src="img/premade-butterfly-contemporary-romance-ebook-cover-design.jpg" alt="" class="">
+                    <h1 class="title">Romance</h1>
+                </div>
+            </div>
+            <div class="img_book">
+                <div class="book">
+                    <img src="img/premade-crime-police-thriller-ebook-cover-design.jpg" alt="" class="">
+                    <h1 class="title">Crime and Thriller</h1>
+                </div>
+            </div>
+
+            <div class="img_book">
+                <div class="book">
+                    <img src="img/premade-indie-scifi-e-book-cover-for-self-published-authors.jpg" alt="" class="">
+                    <h1 class="title">Scifi</h1>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <section class="books_trending" style="height:400px; margin-top:150px; margin-bottom:10px">
+        <h3>Top Trending Books</h3> <a href="" class="right">See All</a>
+
+        <div class="books">
+
+            <div class="img_book">
+                <div class="book">
+                    <img src="img//premade-urban-fantasy-girl-sword-fire-book-cover-design.jpg" alt="" class="">
+                    <h1 class="title">Fantasy</h1>
+                </div>
+            </div>
+            <div class="img_book">
+                <div class="book">
+                    <img src="img/premade-butterfly-contemporary-romance-ebook-cover-design.jpg" alt="" class="">
+                    <h1 class="title">Romance</h1>
+                </div>
+            </div>
+            <div class="img_book">
+                <div class="book">
+                    <img src="img/premade-crime-police-thriller-ebook-cover-design.jpg" alt="" class="">
+                    <h1 class="title">Crime and Thriller</h1>
+                </div>
+            </div>
+
+            <div class="img_book">
+                <div class="book">
+                    <img src="img/premade-indie-scifi-e-book-cover-for-self-published-authors.jpg" alt="" class="">
+                    <h1 class="title">Scifi</h1>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="author_in_focus" style="height:250px; margin-top:150px;">
+        <h3>Authors in Focus</h3> <a href="" class="right">See All</a>
+        <div class="authors">
+            <div class="img_author">
+                <div class="author">
+                    <img src="img/authors/ErnestHemingway.jpg" alt="" class="">
+                    <h1 class="title">Ernest Hemingway</h1>
+                </div>
+            </div>
+            <div class="img_author">
+                <div class="author">
+                    <img src="img/authors/George_Orwell_press_photo.jpg" alt="" class="">
+                    <h1 class="title">George Orwell</h1>
+                </div>
+            </div>
+            <div class="img_author">
+                <div class="author">
+                    <img src="img/authors/J.K._Rowling_2010-10-24.jpg" alt="" class="">
+                    <h1 class="title">J.K. Rowling</h1>
+                </div>
+            </div>
+            <div class="img_author">
+                <div class="author">
+                    <img src="img/authors/Vasily_Perov_-_Портрет_Ф.М.Достоевского_-_Google_Art_Project.jpg" alt=""
+                        class="">
+                    <h1 class="title">Vasily Perov</h1>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <footer class="footer">
+
+        <div class="top">
+            <div class="about">
+                <h3>About Us</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati cum eos,
+
+                    <p>et fugiat nobis facilis,
+                        quod provident dolore molestias eveniet sunt.
+                    </p>
+            </div>
+            <div class="info">
+                <h3>Information</h3>
+                <ul>
+                    <li><i class="fa fa-angle-right"></i><a href=""> About Us</a></li>
+                    <li><i class="fa fa-angle-right"></i><a href=""> Creative Writter</a></li>
+                    <li><i class="fa fa-angle-right"></i><a href=""> Wholesale</a></li>
+                    <li><i class="fa fa-angle-right"></i><a href=""> Contact Us</a></li>
+                    <li><i class="fa fa-angle-right"></i><a href=""> FAQ</a></li>
+                    <li><i class="fa fa-angle-right"></i><a href=""> Terms of Use and Policy</a></li>
+                    <li><i class="fa fa-angle-right"></i><a href=""> Sitemap</a></li>
+                </ul>
+            </div>
+            <div class="social">
+                <h3>Social Links</h3>
+                <div class="social-container">
+
+                    <ul class="social-icons">
+                        <li><a href="#" class="social-square"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#" class="social-square"><i class="fa fa-youtube"></i></a></li>
+                        <li><a href="#" class="social-square"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#" class="social-square"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="contact">
+                <h3>Contact Us</h3>
+                <a href="#"> Pustakjugaad.com </a>
+                <address>
+                    Silchar,
+                </address>
+                <address>
+                    PIN: 788001
+                </address>
+                Email: contact@pustakjugaad.com
+
+            </div>
+        </div>
+        <div class="center">
+            <h5>Subscribe to our Newsletter</h5>
+            <form action="">
+                <input type="email" name="" id="" placeholder="xyz@email.com">
+                <button>Subscribe</button>
+            </form>
+        </div>
+        <div class="bottom">
+            <h3>Copyright &copy; 2018 Pustakjugaad Literary Solutions Private Limited. ALL Rights Reserved.</h3>
+        </div>
+    </footer>
+
+</body>
+<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jquery.hover3d.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+
+</html>
